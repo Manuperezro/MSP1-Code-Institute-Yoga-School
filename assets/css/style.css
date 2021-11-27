@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+/*--------------------------------------------Heading*/
+
+.rocklogo { 
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    
+}
+
+.rocklogo, h2 {
+    font-family: 'Rock Salt', cursive;
+    text-transform: uppercase; 
+    color: black;
+    padding-top: 5px;
+}
+
+.rocklogo, h4 { 
+    text-transform: capitalize;
+    color: black;
+    padding-bottom: 5px;
+}
+
+
+header { 
+    background-color: rgb(168, 163, 163)
+}
+/*--------------------------------------------Main Image and Offer*/
+
+#studio-image { 
+    height:800px;
+    width: 100%;
+    background-image: url("../images/studioclass1.jpg");
+    background-repeat: no-repeat;
+}
+
+#offer-image {
+    background: url(url("../images/studioclass1.jpg");
+    height:800px;
+    width: 100%;
+    background-image: no-repeat;
+}
