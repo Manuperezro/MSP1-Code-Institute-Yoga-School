@@ -13,30 +13,71 @@
     text-transform: uppercase; 
     color: black;
     padding-top: 5px;
+    letter-spacing: 4px;
 }
 
 .rocklogo, h4 { 
     text-transform: capitalize;
     color: black;
     padding-bottom: 5px;
+    letter-spacing: 4px;
 }
 
 
 header { 
     background-color: rgb(168, 163, 163)
 }
-/*--------------------------------------------Main Image and Offer*/
+
+/*--------------------------------------------Body General*/
+
+
+*{ 
+    margin:0;
+    padding:0;
+    border:0;
+
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    color:grey;
+}
+
+/*--------------------------------------------Main Image and  Call Offer*/
 
 #studio-image { 
-    height:800px;
+    height:600px;
     width: 100%;
     background-image: url("../images/studioclass1.jpg");
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#offer-image {
-    background: url(url("../images/studioclass1.jpg");
-    height:800px;
-    width: 100%;
-    background-image: no-repeat;
+#call-offer, h2{
+     color: khaki ;
 }
+
+#call-offer {
+    font-size: 90%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 150px;
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+    background-color:grey;
+    opacity: 80%;
+
+    bottom: 40px;
+    right: 150px;
+
+    position: absolute;
+
+}
+
+
+
+
