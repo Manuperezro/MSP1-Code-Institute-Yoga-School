@@ -3,30 +3,33 @@
 /*--------------------------------------------Heading*/
 
 .rocklogo { 
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Rock Salt', cursive;
     text-align: center;
+    background-color: rgb(155, 153, 153);
     
 }
 
 .rocklogo, h2 {
     font-family: 'Rock Salt', cursive;
     text-transform: uppercase; 
-    color: black;
+    color: rgb(199, 166, 74);
     padding-top: 5px;
     letter-spacing: 4px;
+    font-weight: 900;  
 }
 
-.rocklogo, h4 { 
+.rocklogo h4 { 
     text-transform: capitalize;
-    color: black;
+    color:rgb(177, 142, 48);;
     padding-bottom: 5px;
     letter-spacing: 4px;
 }
 
 
 header { 
-    background-color: rgb(168, 163, 163)
+    background-color: rgba(230, 220, 220, 0.918)
 }
+
 
 /*--------------------------------------------Body General*/
 
@@ -52,18 +55,23 @@ body {
     background-size: cover;
 }
 
-#call-offer, h2{
+
+#call-offer h2{
      color: khaki ;
+     font-size: 150%;
+     text-align: center;
 }
 
+ /*--------copy and modify from love running project*/
 #call-offer {
     font-size: 90%;
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
+    opacity: 0.2;
 
     width: 300px;
-    height: 150px;
+    height: 180px;
 
     padding-top: 20px;
     padding-left: 10px;
@@ -76,6 +84,32 @@ body {
 
     position: absolute;
 
+}
+
+#call-outer{
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+/*--------copy from love running project end*/
+
+/*----------------------------------footer*/
+
+footer { 
+    height: 150px;
+    background-color: rgb(218, 206, 214);
+    font-family:'Rock Salt', sans-serif ; 
+    text-align: center;
+}
+
+.find-us { 
+    text-align: center;
+
+}
+
+.find-us li {
+    display: inline;
 }
 
 
