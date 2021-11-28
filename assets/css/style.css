@@ -9,7 +9,7 @@
     
 }
 
-.rocklogo, h2 {
+.rocklogo h2 {
     font-family: 'Rock Salt', cursive;
     text-transform: uppercase; 
     color: rgb(199, 166, 74);
@@ -23,6 +23,7 @@
     color:rgb(177, 142, 48);;
     padding-bottom: 5px;
     letter-spacing: 4px;
+    font-weight: 900;
 }
 
 
@@ -60,6 +61,7 @@ body {
      color: khaki ;
      font-size: 150%;
      text-align: center;
+     
 }
 
  /*--------copy and modify from love running project*/
@@ -69,6 +71,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 4px;
     opacity: 0.2;
+    font-family: 'Rock salt' cursive;
 
     width: 300px;
     height: 180px;
@@ -93,6 +96,24 @@ body {
     position: relative;
 }
 /*--------copy from love running project end*/
+
+/*---------------------------------------Offer section*/
+
+#offer-image { 
+    background-image:url("../images/offer-image.jpg");
+}
+
+/*-----------------------------------------Visit Us*/
+
+.visit-us { 
+
+}
+
+.visit-us h2 {
+    text-transform: uppercase;
+    
+}
+
 
 /*----------------------------------footer*/
 
