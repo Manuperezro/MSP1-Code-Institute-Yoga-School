@@ -99,9 +99,40 @@ body {
 
 /*---------------------------------------Offer section*/
 
-#offer-image { 
-    background-image:url("../images/offer-image.jpg");
+.intro-offer { 
+    text-align: center;
+    color:rgb(199, 166, 74);
+    font-family: 'Outfit', sans-serif;
+    height:250px;
+    width: 200px;
 }
+
+#intro-offer-image{ 
+    background: url("../images/offer-image.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 200px;
+    
+}
+
+/*-----------------------------------------Classes and Workshops*/
+
+#Classes-Link { 
+    background: url("../images/classes-call.jpeg");
+    background-size: 100%;
+    text-align: center;
+    height: 250px;
+    width:200px;
+}
+
+#Classes-Link h2 {
+
+}
+/*-----------------------------------------Our Teachers*/
+
+/*-----------------------------------------Stories*/
 
 /*-----------------------------------------Visit Us*/
 
@@ -131,6 +162,10 @@ footer {
 
 .find-us li {
     display: inline;
+}
+
+.form-section { 
+  
 }
 
 
