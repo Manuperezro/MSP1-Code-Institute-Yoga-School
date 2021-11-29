@@ -39,13 +39,12 @@ header {
     margin:0;
     padding:0;
     border:0;
+    color:rgb(78, 74, 74)
 
 }
 
-body {
-    font-family: 'Outfit', sans-serif;
-    color:grey;
-}
+
+
 
 /*--------------------------------------------Main Image and  Call Offer*/
 
@@ -71,7 +70,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 4px;
     opacity: 0.2;
-    font-family: 'Rock salt' cursive;
+    font-family: 'Rock salt', cursive;
 
     width: 300px;
     height: 180px;
@@ -107,7 +106,7 @@ body {
     width: 200px;
 }
 
-#intro-offer-image{ 
+#intro-offer-image { 
     background: url("../images/offer-image.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -119,7 +118,7 @@ body {
 
 /*-----------------------------------------Classes and Workshops*/
 
-#Classes-Link { 
+#Classes-link { 
     background: url("../images/classes-call.jpeg");
     background-size: 100%;
     text-align: center;
@@ -127,10 +126,32 @@ body {
     width:200px;
 }
 
-#Classes-Link h2 {
+#Workshops-link { 
+    background: url("../images/workshops.jpeg");
+    background-size: 100%;
+    text-align: center;
+    height: 250px;
+    width:200px;
+}
 
+#Classes-link h2 {
+    color:rgb(177, 142, 48);
+}
+
+#Workshops-link h2 { 
+
+    color:rgb(177, 142, 48);
+    
 }
 /*-----------------------------------------Our Teachers*/
+
+.teachers, h2 {
+text-align: center;
+font-family: 'Rock salt', cursive;
+font-weight: 400;
+color:rgb(177, 142, 48);
+
+}
 
 /*-----------------------------------------Stories*/
 
