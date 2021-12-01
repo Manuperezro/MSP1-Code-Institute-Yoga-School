@@ -48,11 +48,10 @@ header {
 
 /*--------------------------------------------Main Image and  Call Offer*/
 
-#studio-image { 
-    height:600px;
+.hero-image { 
+    height: 600px;
     width: 100%;
-    background-image: url("../images/studioclass1.jpg");
-    background-size: cover;
+   
 }
 
 
@@ -106,33 +105,9 @@ header {
     width: 200px;
 }
 
-#intro-offer-image { 
-    background: url("../images/offer-image.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 250px;
-    width: 200px;
-    
-}
 
 /*-----------------------------------------Classes and Workshops*/
 
-#Classes-link { 
-    background: url("../images/classes-call.jpeg");
-    background-size: 100%;
-    text-align: center;
-    height: 250px;
-    width:200px;
-}
-
-#Workshops-link { 
-    background: url("../images/workshops.jpeg");
-    background-size: 100%;
-    text-align: center;
-    height: 250px;
-    width:200px;
-}
 
 #Classes-link h2 {
     color:rgb(177, 142, 48);
