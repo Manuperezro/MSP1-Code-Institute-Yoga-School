@@ -6,6 +6,7 @@
     font-family: 'Rock Salt', cursive;
     text-align: center;
     background-color: rgb(155, 153, 153);
+    margin: 0%;
     
 }
 
@@ -20,7 +21,7 @@
 
 .rocklogo h4 { 
     text-transform: capitalize;
-    color:rgb(177, 142, 48);;
+    color:rgb(199, 166, 74);;
     padding-bottom: 5px;
     letter-spacing: 4px;
     font-weight: 900;
@@ -44,18 +45,18 @@ header {
 }
 
 
-
-
 /*--------------------------------------------Main Image and  Call Offer*/
 
 .hero-image { 
-    height: 600px;
+    height: 500px;
     width: 100%;
-   
+    position: relative;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
 }
-
-
-#call-offer h2{
+#call-offer h2 {
      color: khaki ;
      font-size: 150%;
      text-align: center;
@@ -63,6 +64,7 @@ header {
 }
 
  /*--------copy and modify from love running project*/
+
 #call-offer {
     font-size: 90%;
     font-family: Oswald;
@@ -70,18 +72,18 @@ header {
     letter-spacing: 4px;
     opacity: 0.2;
     font-family: 'Rock salt', cursive;
-
+    
     width: 300px;
     height: 180px;
 
     padding-top: 20px;
     padding-left: 10px;
 
-    background-color:grey;
+    background-color:rgb(182, 179, 179);
     opacity: 80%;
 
     bottom: 40px;
-    right: 150px;
+    left: 150px;
 
     position: absolute;
 
@@ -100,20 +102,21 @@ header {
 .intro-offer { 
     text-align: center;
     color:rgb(199, 166, 74);
-    font-family: 'Outfit', sans-serif;
-    height:250px;
-    width: 200px;
+    font-family: 'Rock salt', cursive;
+    height:325px;
+    width: 250px;
+    letter-spacing: 2px;
 }
 
 
 /*-----------------------------------------Classes and Workshops*/
 
 
-#Classes-link h2 {
+#classes-link h2 {
     color:rgb(177, 142, 48);
 }
 
-#Workshops-link h2 { 
+#workshops-link h2 { 
 
     color:rgb(177, 142, 48);
     
@@ -125,10 +128,27 @@ text-align: center;
 font-family: 'Rock salt', cursive;
 font-weight: 400;
 color:rgb(177, 142, 48);
+letter-spacing: 1px;
+
+}
+
+.teachers, p {
 
 }
 
 /*-----------------------------------------Stories*/
+
+.stories, h2 { 
+    text-align: center;
+    font-family: 'Rock salt', cursive;
+    font-weight: 400;
+    color:rgb(177, 142, 48);
+    letter-spacing: 1px;
+}
+
+.stories, p {
+
+}
 
 /*-----------------------------------------Visit Us*/
 
