@@ -5,7 +5,7 @@
 .rocklogo { 
     font-family: 'Rock Salt', cursive;
     text-align: center;
-    background-color: rgb(155, 153, 153);
+    background-color: rgb(241, 241, 241);
     margin: 0%;
     
 }
@@ -28,26 +28,10 @@
 }
 
 
-header { 
-    background-color: rgba(230, 220, 220, 0.918)
-}
-
-
-/*--------------------------------------------Body General*/
-
-
-*{ 
-    margin:0;
-    padding:0;
-    border:0;
-    color:rgb(78, 74, 74)
-
-}
-
-
 /*--------------------------------------------Main Image and  Call Offer*/
 
 .hero-image { 
+
     height: 500px;
     width: 100%;
     position: relative;
@@ -63,6 +47,14 @@ header {
      
 }
 
+/*-------------------------------------------General*/
+*{ 
+    margin:0;
+    padding:0;
+    border:0;
+    color:rgb(78, 74, 74)
+
+}
  /*--------copy and modify from love running project*/
 
 #call-offer {
@@ -74,7 +66,7 @@ header {
     font-family: 'Rock salt', cursive;
     
     width: 300px;
-    height: 180px;
+    height: 220px;
 
     padding-top: 20px;
     padding-left: 10px;
@@ -82,15 +74,15 @@ header {
     background-color:rgb(182, 179, 179);
     opacity: 80%;
 
-    bottom: 40px;
+    bottom: 50px;
     left: 150px;
 
     position: absolute;
 
 }
 
-#call-outer{
-    height:600px;
+#call-outer {
+    height:700px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -99,46 +91,74 @@ header {
 
 /*---------------------------------------Offer section*/
 
-.intro-offer { 
+.intro-offer h2 { 
     text-align: center;
-    color:rgb(199, 166, 74);
     font-family: 'Rock salt', cursive;
-    height:325px;
-    width: 250px;
+    font-weight: 400;
+    color:rgb(177, 142, 48);
+    letter-spacing: 1px;
+
+}
+
+.intro-offer { 
+
+    font-family: 'Rock salt', cursive;
+    text-align: center;
+    margin:0;
+    padding:0;
+    border:0;
+    color:rgb(78, 74, 74);
     letter-spacing: 2px;
+
 }
 
 
-/*-----------------------------------------Classes and Workshops*/
+/*-----------------------------------------Classes and Workshops links*/
 
 
-#classes-link h2 {
+.classes-link h2 {
     color:rgb(177, 142, 48);
+    text-align: center;
 }
 
-#workshops-link h2 { 
-
+.workshops-link h2 { 
     color:rgb(177, 142, 48);
+    text-align: center;
     
 }
+
+
+.hvr-rectangle-out { 
+    color: rgba(0, 0, 0, 0.2);
+} 
+
+
+
 /*-----------------------------------------Our Teachers*/
 
-.teachers, h2 {
-text-align: center;
-font-family: 'Rock salt', cursive;
-font-weight: 400;
-color:rgb(177, 142, 48);
-letter-spacing: 1px;
+.teachers h2 {
+    text-align: center;
+    font-family: 'Rock salt', cursive;
+    font-weight: 400;
+    color:rgb(177, 142, 48);
+    letter-spacing: 1px;
 
 }
 
-.teachers, p {
+.teachers  {
+    font-family: 'Rock salt', cursive;
+    text-align: center;
+    margin:0;
+    padding:0;
+    border:0;
+    color:rgb(78, 74, 74);
+    letter-spacing: 2px;
 
 }
 
 /*-----------------------------------------Stories*/
 
-.stories, h2 { 
+.stories h2 { 
     text-align: center;
     font-family: 'Rock salt', cursive;
     font-weight: 400;
@@ -146,29 +166,51 @@ letter-spacing: 1px;
     letter-spacing: 1px;
 }
 
-.stories, p {
+
+.stories {
+    font-family: 'Rock salt', cursive;
+    text-align: center;
+    margin:0;
+    padding:0;
+    border:0;
+    color:rgb(78, 74, 74);
+    letter-spacing: 2px;
+
+    
 
 }
 
 /*-----------------------------------------Visit Us*/
 
-.visit-us { 
+.visit-us, p { 
+
+ letter-spacing: 2px;
+
 
 }
 
 .visit-us h2 {
     text-transform: uppercase;
-    
+    text-align: center;
+    font-family: 'Rock salt', cursive;
+    font-weight: 400;
+    color:rgb(177, 142, 48);
+    letter-spacing: 1px;
 }
-
-
+    
 /*----------------------------------footer*/
+
+footer h2 { 
+    color:rgb(177, 142, 48); 
+    font-family: 'Rock salt', cursive;
+}
 
 footer { 
     height: 150px;
-    background-color: rgb(218, 206, 214);
+    background-color: rgb(241, 241, 241);
     font-family:'Rock Salt', sans-serif ; 
     text-align: center;
+    font-weight: 900;
 }
 
 .find-us { 
@@ -180,9 +222,87 @@ footer {
     display: inline;
 }
 
-.form-section { 
-  
+.join-form { 
+
 }
+
+/*----------------------------------classes.html*/
+
+.class-list h2  {
+    text-align: center;
+    font-family: 'Rock salt', cursive;
+    font-weight: 400;
+    color:rgb(177, 142, 48);
+    letter-spacing: 1px;
+}
+
+.class-list { 
+    font-family: 'Rock salt', cursive;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+
+.prices-list h2 { 
+    text-align: center;
+    font-family: 'Rock salt', cursive;
+    font-weight: 400;
+    color:rgb(177, 142, 48);
+    letter-spacing: 1px;
+}
+
+.prices-list { 
+    font-family: 'Rock salt', cursive;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+
+/*------------------------------Workshops.html*/
+
+/*------------------------------Ahimsa.html*/
+
+.ahimsa-text h2 {
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Rock salt', cursive;
+    font-weight: 400;
+    color:rgb(177, 142, 48);
+    letter-spacing: 1px;
+}
+
+.ahimsa-text { 
+    font-family: 'Rock salt', cursive;
+    text-align: center;
+    margin:0;
+    padding:0;
+    border:0;
+    color:rgb(78, 74, 74);
+    letter-spacing: 2px;
+    font-weight: lighter;
+    
+
+}
+
+.ahimsa-text a { 
+    color:black;
+    font-weight: 100;
+    
+}
+
+.ahimsa-text li { 
+    text-align: left;
+    font-weight: 100;
+    font-size: 150%;
+    
+} 
+
+
+
+
+
+
+
 
 
 
