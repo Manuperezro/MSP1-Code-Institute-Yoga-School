@@ -2,6 +2,10 @@
 
 /*--------------------------------------------Heading*/
 
+header { 
+    background-color: rgb(241, 241, 241);
+}
+
 .rocklogo { 
     font-family: 'Rock Salt', cursive;
     text-align: center;
@@ -14,9 +18,10 @@
     font-family: 'Rock Salt', cursive;
     text-transform: uppercase; 
     color: rgb(199, 166, 74);
-    padding-top: 5px;
+    padding-top: 15px;
     letter-spacing: 4px;
     font-weight: 900;  
+    margin: 0%;
 }
 
 .rocklogo h4 { 
@@ -25,8 +30,13 @@
     padding-bottom: 5px;
     letter-spacing: 4px;
     font-weight: 900;
+    margin: 0px;
 }
 
+.navstyle { 
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
 
 /*--------------------------------------------Main Image and  Call Offer*/
 
