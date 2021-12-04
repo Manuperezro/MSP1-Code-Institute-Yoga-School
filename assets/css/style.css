@@ -104,7 +104,6 @@ header {
 
 }
 
-
 /*-------------------------------------------General*/
 *{ 
     margin:0;
@@ -122,6 +121,13 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 600px) {
+    .col {
+      display: block;
+      width: 100%;
+    }
+  }
 
 .equal-column-content { 
 
