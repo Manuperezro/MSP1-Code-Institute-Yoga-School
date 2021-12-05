@@ -106,6 +106,9 @@ header {
 
 }
 
+
+/*--------------------------------------------copy from Loverunningproject end*/
+
 /*-------------------------------------------General*/
 *{ 
     margin:0;
@@ -115,6 +118,7 @@ header {
 
 }
 
+/*--------------------------------------------copy from youtube tutorial*/
 
 .equal-height-columns { 
     display: -webkit-box;
@@ -129,6 +133,10 @@ header {
     height: 100%;
 
 }
+
+/*--------------------------------------------copy from Youtube tutorial End*/
+
+
  /*--------copy and modify from love running project*/
 
 #call-offer {
@@ -350,6 +358,23 @@ footer {
 
 /*------------------------------Workshops.html*/
 
+.workshop-sec h2 {
+    text-align: center;
+    font-family: 'Rock salt', cursive;
+    font-weight: 400;
+    color:rgb(177, 142, 48);
+    letter-spacing: 1px;
+
+ }
+
+.workshop-sec { 
+
+    font-family: 'Rock salt', cursive;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+
 /*------------------------------Ahimsa.html*/
 
 .ahimsa-text h2 {
@@ -399,6 +424,39 @@ footer {
 
 }
 
+
+@media screen and (max-width: 1400px) {
+    iframe {
+       width: 475px;
+    }
+
+@media screen and (max-width: 1200px) {
+    iframe {
+       width: 395px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    iframe {
+       width: 278px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    iframe {
+       width: 278px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    iframe {
+       width: 315px;
+    }
+
+}
 
 
 
