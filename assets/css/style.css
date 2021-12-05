@@ -52,7 +52,8 @@ header {
 #hero-image{
     height:600px;
     width: 100%;
-    background: url("assets/images/studioclass1.jpg") no-repeat center center;
+    background: url("../images/hero2.jpeg") no-repeat center center;
+    background-size: cover;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -66,15 +67,6 @@ header {
     position: relative;
 }
 
-@media screen and (max-width: 600px) {
-    #cover-text{
-       text-align: center;
-    }
-
-    
-    }
-
-}
 
 @keyframes hero-zoom {
     from{
@@ -399,7 +391,13 @@ footer {
     
 } 
 
+@media screen and (max-width: 600px) {
+    #cover-text{
+       position:absolute;
+       left:0;
+    }
 
+}
 
 
 
