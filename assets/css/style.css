@@ -418,8 +418,7 @@ footer {
 
 @media screen and (max-width: 600px) {
     #cover-text{
-       position:absolute;
-       left:0;
+      display:none;
     }
 
 }
@@ -429,6 +428,7 @@ footer {
     iframe {
        width: 475px;
     }
+}
 
 @media screen and (max-width: 1200px) {
     iframe {
