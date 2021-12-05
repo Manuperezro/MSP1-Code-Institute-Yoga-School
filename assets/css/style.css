@@ -47,7 +47,7 @@ header {
 
 /*--------------------------------------------Main Image and  Call Offer*/
 
-/*--------------------------------------------copy from Loverunningproject*/
+/*--------------------------------------------copy and modify from Loverunningproject*/
 
 #hero-image{
     height:600px;
@@ -78,6 +78,7 @@ header {
 }
 
 #cover-text, #cover-text h2 {
+
     color: khaki ;
     font-size: 150%;
     text-align: center;
@@ -107,9 +108,10 @@ header {
 }
 
 
-/*--------------------------------------------copy from Loverunningproject end*/
+/*--------------------------------------------copy and modify from Loverunningproject end*/
 
 /*-------------------------------------------General*/
+
 *{ 
     margin:0;
     padding:0;
@@ -171,7 +173,7 @@ header {
     overflow: hidden;
     position: relative;
 }
-/*--------copy from love running project end*/
+/*--------copy and mofify from love running project end*/
 
 /*---------------------------------------Offer section*/
 
@@ -291,6 +293,7 @@ header {
     letter-spacing: 1px;
 }
     
+
 /*----------------------------------footer*/
 
 footer h2 { 
@@ -319,6 +322,17 @@ footer {
     display: inline;
 }
 
+
+.form-section {
+        position: absolute;
+        text-align: center;
+        clear: both;
+        background-color:burlywood;
+        background-size: cover;
+        background-position: center;
+        height: 900px;
+        display: block;
+    }
 
 /*----------------------------------classes.html*/
 
@@ -457,9 +471,6 @@ footer {
     }
 
 }
-
-
-
 
 
 
