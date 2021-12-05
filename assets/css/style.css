@@ -217,9 +217,8 @@ header {
 }
 
 
-.hvr-rectangle-out { 
-
-    color: rgba(0, 0, 0, 0.2);
+.hvr-rectangle-out::before { 
+    background-color: rgb(196, 192, 192, 02);
 } 
 
 
@@ -292,7 +291,23 @@ header {
     color:rgb(177, 142, 48);
     letter-spacing: 1px;
 }
-    
+.visit-us { 
+
+    font-family: 'Rock salt', cursive;
+    text-align: center;
+    margin:0;
+    padding:0;
+    border:0;
+    color:rgb(78, 74, 74);
+    letter-spacing: 2px;
+
+
+}
+
+a { 
+    color:rgb(78, 74, 74);
+}
+
 
 /*----------------------------------footer*/
 
@@ -311,28 +326,36 @@ footer {
     font-weight: 900;
 }
 
-.find-us { 
-
-    text-align: center;
-
-}
-
-.find-us li {
-
-    display: inline;
-}
-
 
 .form-section {
-        position: absolute;
         text-align: center;
-        clear: both;
-        background-color:burlywood;
-        background-size: cover;
-        background-position: center;
-        height: 900px;
+        background-color: rgb(241, 241, 241);
+        background-size: contain;
+        padding: 0px;
         display: block;
+        border:khaki;
+        font-family:'Rock Salt', sans-serif ; 
     }
+
+label { 
+    display: block;
+    text-align: center;
+    font-family:'Rock Salt', sans-serif ; 
+
+}
+
+input { 
+    display: block;
+    text-align: center;
+    border: 2px solid rgb(212, 162, 24);
+    left:50px;
+}
+
+.button:hover { 
+    background-color: rgb(241, 241, 241);
+    color:rgb(177, 142, 48);
+
+}
 
 /*----------------------------------classes.html*/
 
