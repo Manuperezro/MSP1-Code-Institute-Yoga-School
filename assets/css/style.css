@@ -367,6 +367,11 @@ footer {
 }
 
 
+.row { 
+
+    background-color: rgb(241, 241, 241);
+
+}
 
 .form-section {
         text-align: center;
@@ -378,12 +383,14 @@ footer {
         font-family:'Rock Salt', sans-serif ; 
     }
 
-label { 
+.form-label { 
+    margin: 0px;
     font-family:'Rock Salt', sans-serif ; 
 
 }
 
-input { 
+.form-control { 
+    margin: 0px;
     border: 2px solid rgb(212, 162, 24);
     left:50px;
 } 
