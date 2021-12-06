@@ -13,18 +13,20 @@ header {
     text-align: center;
     background-color: rgb(241, 241, 241);
     margin: 0%;
-    
+    border-radius: 2px;
+    border-color: black;
 }
 
 .rocklogo h2 {
 
     font-family: 'Rock Salt', cursive;
     text-transform: uppercase; 
-    color: rgb(199, 166, 74);
+    color:rgb(199, 166, 74);;
     padding-top: 15px;
     letter-spacing: 4px;
     font-weight: 900;  
     margin: 0%;
+    text-shadow: black;
 }
 
 .rocklogo h4 { 
@@ -35,6 +37,7 @@ header {
     letter-spacing: 4px;
     font-weight: 900;
     margin: 0px;
+    text-shadow: black;
 }
 
 .navstyle { 
@@ -97,7 +100,7 @@ header {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(166, 163, 163, 0.7);
+    background-color: rgba(85, 84, 84, 0.404);
 
     bottom: 30px;
     left: 150px;
@@ -116,9 +119,10 @@ header {
     margin:0;
     padding:0;
     border:0;
-    color:rgb(78, 74, 74)
+    color:rgb(54, 53, 53)
 
 }
+
 
 /*--------------------------------------------copy from youtube tutorial*/
 
@@ -193,8 +197,20 @@ header {
     text-align: center;
     margin:0;
     border:0;
-    color:rgb(78, 74, 74);
-    letter-spacing: 2px;
+    color:rgb(39, 39, 39);
+    letter-spacing : 2px;
+
+}
+
+.intro-offer-image {
+
+    height: 450px;
+    width: 100%;
+    background: url("../images/studio2.jpeg") no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
 }
 
@@ -209,7 +225,7 @@ header {
 
 }
 
-.workshops-link h2 { 
+.workshop-link h2 { 
 
     color:rgb(177, 142, 48);
     text-align: center;
@@ -218,10 +234,34 @@ header {
 
 
 .hvr-rectangle-out::before { 
+
     background-color: rgb(196, 192, 192, 02);
+    opacity:0.5;
 } 
 
+.classes-link-image { 
 
+        height: 450px;
+        width: 100%;
+        background: url("../images/classes-call.jpeg") no-repeat center center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+
+}
+
+.workshop-link-image { 
+
+    height: 450px;
+    width: 100%;
+    background: url("../images/headstand.jpg") no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
 
 /*-----------------------------------------Our Teachers*/
 
@@ -242,7 +282,7 @@ header {
     margin:0;
     padding:0;
     border:0;
-    color:rgb(78, 74, 74);
+    color:rgb(39, 39, 39);
     letter-spacing: 2px;
 
 }
@@ -266,7 +306,7 @@ header {
     margin:0;
     padding:0;
     border:0;
-    color:rgb(78, 74, 74);
+    color:rgb(39, 39, 39);
     letter-spacing: 2px;
 
     
@@ -298,7 +338,7 @@ header {
     margin:0;
     padding:0;
     border:0;
-    color:rgb(78, 74, 74);
+    color:rgb(39, 39, 39);
     letter-spacing: 2px;
 
 
@@ -412,7 +452,19 @@ input {
 
 }
 
-/*------------------------------Ahimsa.html*/
+.workshop-image { 
+
+    height: 900px;
+    width: 100%;
+    background: url("../images/ahimsa.jpeg") no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+/*------------------------------ahimsa.html*/
 
 .ahimsa-text h2 {
 
@@ -431,7 +483,7 @@ input {
     margin:0;
     padding:0;
     border:0;
-    color:rgb(78, 74, 74);
+    color:rgb(39, 39, 39);
     letter-spacing: 2px;
     font-weight: lighter;
     
@@ -453,6 +505,20 @@ input {
     
 } 
 
+.ahimsa-image  {
+
+    height: 800px;
+    width: 100%;
+    background: url("../images/ahimsa2.jpeg") no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+/*------------------------------@media*/
+
 @media screen and (max-width: 600px) {
     #cover-text{
       display:none;
@@ -461,22 +527,23 @@ input {
 }
 
 
+
 @media screen and (max-width: 1400px) {
     iframe {
-       width: 475px;
+       width: 460px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     iframe {
-       width: 395px;
+       width: 390px;
     }
 
 }
 
 @media screen and (max-width: 992px) {
     iframe {
-       width: 278px;
+       width: 270px;
     }
 
 }
