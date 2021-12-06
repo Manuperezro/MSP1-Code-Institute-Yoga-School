@@ -416,6 +416,17 @@ input {
 
 }
 
+.classes-image { 
+    height: 800px;
+    width: 100%;
+    background: url("../images/Yogaclass6.jpeg") no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
 .prices-list h2 { 
 
     text-align: center;
@@ -433,6 +444,15 @@ input {
 
 }
 
+.price-image { 
+    height: 700px;
+    width: 100%;
+    background: url("../images/yogaclass5.jpeg") no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
 /*------------------------------Workshops.html*/
 
 .workshop-sec h2 {
