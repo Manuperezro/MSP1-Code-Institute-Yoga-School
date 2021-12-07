@@ -5,6 +5,7 @@
 header { 
 
     background-color: rgb(241, 241, 241);
+    margin-bottom: 0px;
 }
 
 .rocklogo { 
@@ -60,6 +61,7 @@ header {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    margin-top: 0px;
 }
   
 
@@ -122,6 +124,13 @@ header {
     color:rgb(54, 53, 53)
 
 }
+
+.section-m {
+    margin-top: 45px;
+    margin-bottom: 45px;
+
+}
+
 
 
 .button { 
@@ -594,11 +603,17 @@ footer {
 
 @media screen and (max-width: 600px) {
     iframe {
-       width: 315px;
+       width: 290px;
     }
 
 }
 
+@media screen and (max-width: 400px) {
+    iframe {
+       width: 215px;
+    }
+
+}
 
 
 
