@@ -151,6 +151,11 @@ header {
     color: gold;
 }
 
+pre { 
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
 
 /*--------------------------------------------copy from youtube tutorial*/
 
