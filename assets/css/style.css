@@ -33,7 +33,7 @@ header {
 .rocklogo h4 { 
 
     text-transform: capitalize;
-    color:rgb(199, 166, 74);;
+    color:rgb(199, 166, 74);
     padding-bottom: 5px;
     letter-spacing: 4px;
     font-weight: 900;
@@ -54,6 +54,7 @@ header {
 /*--------------------------------------------copy and modify from Loverunningproject*/
 
 #hero-image{
+
     height:600px;
     width: 100%;
     background: url("../images/hero2.jpeg") no-repeat center center;
@@ -66,10 +67,12 @@ header {
   
 
 #hero-outer{
+
     height:600px;
     width: 100%;
     overflow: hidden;
     position: relative;
+    
 }
 
 
@@ -82,7 +85,7 @@ header {
     }
 }
 
-#cover-text, #cover-text h2 {
+#cover-text h2 {
 
     color: khaki ;
     font-size: 150%;
@@ -90,11 +93,20 @@ header {
     font-family: 'Ubuntu', sans-serif;
 }
 
+#cover-text h4 { 
+
+    color:rgb(199, 166, 74);
+
+}
+
 #cover-text {
+
     font-size: 110%;
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
+    text-align: center;
+    
 
     width: 300px;
     height: 350px;
@@ -102,7 +114,7 @@ header {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(85, 84, 84, 0.404);
+    background-color: rgba(139, 137, 137, 0.404);
 
     bottom: 30px;
     left: 150px;
@@ -126,6 +138,7 @@ header {
 }
 
 .section-m {
+
     margin-top: 45px;
     margin-bottom: 45px;
 
@@ -133,7 +146,8 @@ header {
 
 
 
-.button { 
+ .button { 
+
     color: gold;
 }
 
@@ -141,6 +155,7 @@ header {
 /*--------------------------------------------copy from youtube tutorial*/
 
 .equal-height-columns { 
+
     display: -webkit-box;
     display:-webkit-flex;
     display: -ms-flexbox;
@@ -210,7 +225,7 @@ header {
 .intro-offer { 
 
     font-family: 'Lato', sans-serif;
-    text-align: center;
+    text-align: left;
     margin:0;
     border:0;
     color:rgb(39, 39, 39);
@@ -229,6 +244,10 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
 
+}
+
+.offer-button { 
+    text-align: center;
 }
 
 
@@ -298,16 +317,22 @@ header {
 
 }
 
-.teachers  {
+.teachers h4 {
 
-    font-family: 'Lato', sans-serif;
     text-align: center;
+
+}
+
+
+.teachers {
+
+    font-family:'Lato', sans-serif;
+    text-align: left;
     margin:0;
     padding:0;
     border:0;
     color:rgb(39, 39, 39);
     letter-spacing: 2px;
-
 }
 
 /*-----------------------------------------Stories*/
@@ -323,11 +348,16 @@ header {
     margin-bottom: 20px;
 }
 
+.stories h4 {
+
+    text-align: center;
+
+}
 
 .stories {
 
     font-family: 'Lato', sans-serif;
-    text-align: center;
+    text-align: left;
     margin:0;
     padding:0;
     border:0;
@@ -398,6 +428,7 @@ footer {
 
 
 .form-section {
+
         text-align: center;
         background-color: rgb(241, 241, 241);
         background-size: contain;
@@ -408,19 +439,18 @@ footer {
     }
 
 .form-label { 
+
     margin: 0px;
     font-family: 'Lato', sans-serif;
 
 }
 
 .form-control { 
+
     margin: 0px;
     border: 2px solid rgb(212, 162, 24);
     left:50px;
 } 
-
-
-
 
 
 /*----------------------------------classes.html*/
@@ -443,6 +473,7 @@ footer {
 }
 
 .classes-image { 
+
     height: 800px;
     width: 100%;
     background: url("../images/Yogaclass6.jpeg") no-repeat center center;
@@ -471,6 +502,7 @@ footer {
 }
 
 .price-image { 
+
     height: 700px;
     width: 100%;
     background: url("../images/yogaclass5.jpeg") no-repeat center center;
@@ -479,9 +511,11 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
 /*------------------------------Workshops.html*/
 
 .workshop-sec h2 {
+
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
@@ -524,13 +558,13 @@ footer {
 
 .ahimsa-text { 
 
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    margin:0;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    margin-bottom: 30px;
     padding:0;
     border:0;
     color:rgb(39, 39, 39);
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: lighter;
     
 
@@ -540,6 +574,7 @@ footer {
 
     color:black;
     font-weight: 100;
+    text-decoration: none;
     
 }
 
@@ -548,7 +583,8 @@ footer {
     text-align: left;
     font-weight: 100;
     font-size: 150%;
-    
+    margin-top: 45px;
+
 } 
 
 .ahimsa-image  {
