@@ -51,7 +51,7 @@ header {
 
 /*--------------------------------------------Main Image and  Call Offer*/
 
-/*--------------------------------------------copy and modify from Loverunningproject*/
+/*--------------------------------------------based and modify from Loverunningproject*/
 
 #hero-image{
 
@@ -60,7 +60,7 @@ header {
     background: url("../images/hero2.jpeg") no-repeat center center;
     background-size: cover;
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
     margin-top: 0px;
 }
@@ -95,7 +95,7 @@ header {
 
 #cover-text h4 { 
 
-    color:rgb(199, 166, 74);
+    color:rgb(0, 0, 0);
 
 }
 
@@ -114,7 +114,7 @@ header {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(139, 137, 137, 0.404);
+    background-color: rgba(59, 58, 58, 0.404);
 
     bottom: 30px;
     left: 150px;
@@ -125,7 +125,7 @@ header {
 }
 
 
-/*--------------------------------------------copy and modify from Loverunningproject end*/
+/*--------------------------------------------base and modiy In Loverunningproject end*/
 
 /*-------------------------------------------General*/
 
@@ -151,13 +151,8 @@ header {
     color: gold;
 }
 
-pre { 
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 100;
-}
 
-
-/*--------------------------------------------copy from youtube tutorial*/
+/*--------------------------------------------based on youtube tutorial - Aranhaag's Travel and Educational Channel-*/
 
 .equal-height-columns { 
 
@@ -175,10 +170,10 @@ pre {
 }
 
 
-/*--------------------------------------------copy from Youtube tutorial End*/
+/*--------------------------------------------  based - Youtube tutorial End*/
 
 
- /*--------copy and modify from love running project*/
+ /*--------based in love running project*/
 
 #call-offer {
 
@@ -195,7 +190,7 @@ pre {
     padding-top: 20px;
     padding-left: 10px;
 
-    background-color:rgb(182, 179, 179);
+    background-color:rgb(100, 100, 100);
     opacity: 80%;
 
     bottom: 50px;
@@ -212,7 +207,7 @@ pre {
     overflow: hidden;
     position: relative;
 }
-/*--------copy and mofify from love running project end*/
+/*------- based and mofify from love running project end*/
 
 /*---------------------------------------Offer section*/
 
@@ -461,7 +456,8 @@ footer {
 .form-control { 
 
     margin: 0px;
-    border: 2px solid rgb(212, 162, 24);
+    border: 2px solid; 
+    color: rgb(212, 162, 24);
     left:50px;
 } 
 
@@ -547,7 +543,7 @@ footer {
 
 .workshop-image { 
 
-    height: 1200px;
+    height: 1285px;
     width: 100%;
     background: url("../images/ahimsa.jpeg") no-repeat center center;
     background-size: cover;
@@ -613,7 +609,6 @@ footer {
 }
 
 
-
 @media screen and (max-width: 1400px) {
     iframe {
        width: 460px;
@@ -622,14 +617,14 @@ footer {
 
 @media screen and (max-width: 1200px) {
     iframe {
-       width: 390px;
+       width: 380px;
     }
 
 }
 
 @media screen and (max-width: 992px) {
     iframe {
-       width: 270px;
+       width: 260px;
     }
 
 }
