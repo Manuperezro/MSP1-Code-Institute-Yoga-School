@@ -263,20 +263,28 @@ pre {
 
     color:rgb(173, 106, 5);
     text-align: center;
-    text-decoration: none;
     margin-top: 75px;
+    font-size: 60px;
 
 }
+
+.classes-link a { 
+    text-decoration: none;
+
+}
+
 
 .workshop-link h2 { 
 
     color:rgb(173, 106, 5);
     text-align: center;
-    text-decoration: none;
     margin-top: 75px;
-    
+    font-size: 60px;
 }
 
+.workshop-link a { 
+    text-decoration: none;
+}
 
 .hvr-rectangle-out::before { 
 
@@ -564,15 +572,6 @@ footer {
 .ahimsa-text { 
 
     font-family: 'Ubuntu', sans-serif;
-    text-align: left;
-    margin-bottom: 30px;
-    padding:0;
-    border:0;
-    color:rgb(39, 39, 39);
-    letter-spacing: 1px;
-    font-weight: lighter;
-    
-
 }
 
 .ahimsa-text a { 
