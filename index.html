@@ -65,10 +65,31 @@
 
         <p>Enjoy all the benefits of a full membership
         for a very reduce price !</p>
-
         <div class="offer-button">
-        <button type="button" class="btn btn-secondary button">Enroll !</button>
+          <button type="button" class="btn btn-secondary button"><a href="#modal" class="registerlink">Enroll !</a></a></button>
+          </div>
+    </div>
+    
+    <div class="modal_container" id="modal">
+        <div class="modal">
+            <a href="#" class="close">X</a>
+            <span class="modal_heading">
+                ENTER YOUR DETAILS
+            </span>
+            <form action="#">
+                <input type="text" placeholder="Email" ><br>
+                <input type="text" placeholder="Username"><br>
+                <input type="password" placeholder="Password"><br>
+                <input type="submit" class="btnRegister" value="REGISTER">
+            </form>
+            <a href="#" class="signin">
+                Have an account already?
+            </a>
+            <a href="#" class="forgotPassword">
+                Forgot Password?
+            </a>
         </div>
+          
         </div>
           </div>
           <div class="col-12 col-md-6">
@@ -227,7 +248,7 @@
                 <label for="email1" class="form-label">Your Email</label>
                 <input type="email" class="form-control" id="email1" aria-describedby="emailHelp">
               </div>
-              <button type="button" class="btn btn-secondary button">Join !</button>
+              <button type="button" class="btn btn-secondary button" data-toggle="modal">Join !</button>
             </form>
         </div>
        </div>
