@@ -1,6 +1,6 @@
 # Rock Bristol School of Yoga
 
-# The website of a Yoga Studio to show what they offer to the students, share their approach and increase the number of students subcriptions, and visitors 
+# A responsive website of a Yoga Studio to show what they offer to the students, share their approach and increase the number of students subcriptions, and visitors 
 
 ## Code Institute - Milestone Project 1 
 
@@ -98,8 +98,16 @@ yoga can bring to the students using the color on the website, and the breathing
 
 The Basic structure of Rock Bristol Yoga School was skectched using [balsamiq](https://balsamiq.com/).
 
-images here: (Create link) "#"
+Here some images of the procces( to see full wireframe click PDF) : 
 
+-  PC Mac screen: ![wireframe](assets/images/readme.img/wireframe1.JPG "PC wireframe")
+
+- Tablet screen: ![wireframe](assets/images/readme.img/wireframe2.JPG "PC wireframe")
+
+- Mobile screen: ![wireframe](assets/images/readme.img/wireframe3.JPG "PC wireframe")
+
+- PDF:  
+  [Wireframe PDF](https://drive.google.com/file/d/1Ma2lZGsFX_GElv23_iktQVi_kj2reLCx/view?usp=sharing)
 
 ## Features
 
@@ -116,25 +124,6 @@ images here: (Create link) "#"
    #### (future features)
 
     "buttons to link with and app to to do online payments and online booking"
-
- - #### Responsive on all device sizes:
-
-
-     - Desktop:
-
-     "#"
-
-     - Tablet:
-
-     "#"
-
-     - Mobile:
-
-     "#"
-
- + Interactive elements:
-
-     "#"
 
 ## Technologies: 
 
@@ -222,20 +211,73 @@ Workshop.html :
 
 ## Deployment:
 
-### Deployment to Github Pages:
+### Inception:
+
+ + this project was created using Code Institute template from GitHub:
+
+ + After the creation of the project, I rename it as : MSP1-Code-Institute-Yoga-School.
+
+ + In order to push this project from GitPod to Github i used a set of git commands on the terminal: 
+  
+  - git status  - Check the status of the repository and see if there were any changes in files 
+
+- git add .  - Add the files that were modified/created, so we can commit it 
+
+- git commit -m "message for commit"  - Commits all the changes
+
+- git push  - Pushes all committed versions to GitHub.
+
+#### Deployment to GitHub Pages:
+
++ The project was deployed to GitHub Pages using the following steps:
+
+- Log in to GitHub and locate GitHub Repository
+
+- At the top of repository click on "Settings"
+
+- Once you are in settings scroll down to "GitHub Pages"
+
+- Under "Source", click the dropdown called "None" and select "Master Branch".
+
+- After the page automatically refresh scroll down again on "GitHub Pages" and I will  see live link to the published site.
 
 
 ### Cloning repository:
 
++ Local Clone
+
+- Log in to GitHub and locate GitHub Repository
+
+- At the top of repository click on Code
+
+- From the dropdown menu under HTTPS copy the link
+
+- Now on your IDE create a directory where you wanna make the clone
+
+- Type git clone and paste the link that you copy from step 3.
+
 
 ### Forking repository:
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+
+- Log in to GitHub and locate the GitHub Repository
+- At the top of the Repository (not top of page) just above the "Settings" Button on - - the menu, locate the "Fork" Button.
+- You should now have a copy of the original repository in your GitHub account.
 
 
 ## Credits:
 
 ## Aknowledgements:
 
-## back to top link:
+A huge thankyou to my mentor who has been incredibly helpful and approachable throughout this project.
+
+Likewise, to the tutors for helping through to completion on this.
+
+And for the main teacher at the City of Bristol College.
+
+Big Thanks.
+
 
 
 

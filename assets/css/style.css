@@ -476,7 +476,7 @@ footer {
 .class-list { 
 
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 250;
     letter-spacing: 1px;
 
 }
@@ -505,9 +505,8 @@ footer {
 .prices-list { 
 
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 250;
     letter-spacing: 1px;
-
 }
 
 .price-image { 
@@ -533,10 +532,18 @@ footer {
 
  }
 
+ .workshop-sec h3 {
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 350;
+    letter-spacing: 1px;
+
+ }
+
 .workshop-sec { 
 
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 250;
     letter-spacing: 1px;
 
 }
@@ -567,7 +574,12 @@ footer {
 
 .ahimsa-text { 
 
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 250;
+    letter-spacing: 1px;
+
+    
+
 }
 
 .ahimsa-text a { 
@@ -578,6 +590,7 @@ footer {
     
 }
 
+
 .ahimsa-text li { 
 
     text-align: left;
@@ -586,6 +599,8 @@ footer {
     margin-top: 45px;
 
 } 
+
+
 
 .ahimsa-image  {
 
