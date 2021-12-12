@@ -210,9 +210,9 @@ Workshop.html :
 
 ### Testing User Stories from User Experience (UX) Section
 
- ## First Time Visitor Goals: 
+ #### First Time Visitor Goals: 
 
-  #  As a First Time Visitor, I want to easily se hat the studio offers, find when the classes take place (timetable) also the prices and offers:
+  ######  As a First Time Visitor, I want to easily se hat the studio offers, find when the classes take place (timetable) also the prices and offers:
      
      - Upon entering the site, users will see the first a hero image so the users can get an idea on how the studio looks like.
 
@@ -224,7 +224,7 @@ Workshop.html :
 
      - Follwing the links there is an introduction of the teachers that works in the studio, so users know what to expect in the classes before the procced to booking.
 
-  #  As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content:
+  #####  As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content:
 
     - At the top of each page the is a header with the logo and the navigation menu, wich mades easy to navigates throw the four pages of the site. 
 
@@ -234,15 +234,15 @@ Workshop.html :
     - At the bottom of the footer in all pages there is a link to bring the ser to tye top of the page, 
     to the nav menu, so is easy to the user to move to what is looking for.
 
-  # As a first time visitor I want to see some stories and reviews from other ussers to get to know the studio. I also Want to find the links to the social media to find more information about the studion and ussers thoughts and reviews and be able to determine how trasted and known the studio is:
+  ##### As a first time visitor I want to see some stories and reviews from other ussers to get to know the studio. I also Want to find the links to the social media to find more information about the studion and ussers thoughts and reviews and be able to determine how trasted and known the studio is:
 
     - After the teaching section the users can read some reviews from others visitors.
 
     - at the botton of the Visit us here the user can find links to social media, link to the studio gmail and the iframe google map location at the right side. 
     
- ## Returning Visitor Goals: 
+ #### Returning Visitor Goals: 
 
-  # As a returning Visitor, I want to book easyly classes and workshops:
+  ##### As a returning Visitor, I want to book easyly classes and workshops:
    
     - The links for classes/ Prices and workshops are right on the middle in the home page.  
       This pages two will be the most visited pages for a returning visitor
@@ -250,16 +250,31 @@ Workshop.html :
     - In the classes and workshops pages are buttons with open a modal to be able to register to a future app (mindbodyonline), 
     in wich the users will be able to made online bookings and payments.
 
-  # As a returning Visitor, I want to fin any new updates in the timetable and workshops section:
+  ##### As a returning Visitor, I want to fin any new updates in the timetable and workshops section:
 
     - In the footer at every page the users can find a form to join and reveive direct email with every update.
 
-  # As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have:
+  ##### As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have:
 
     - At the boton in index.html is section with find Us and Contac us where users can find the contact information.
 
     - In the same section users can find social media links.
 
+ #### Frequent Users Goals:
+
+ ##### As a Frequent User, I want to be able to book a class easyly:
+
+    - The user would already be comfortable with the website layout and can easily click the classes link to book in the timetable with a few clicks.
+
+ ##### As a Frequent User, I want to check to see if there are any new workshops.
+
+    - The user would already be comfortable with the website layout and can easily click the workshop page.
+
+#####  As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the class timetablewebsite workshops or events.
+
+    - At the bottom of every page their is a footer which content is consistent throughout all pages.
+      in the center of the footer there is a form where the user can "Subscribe to our Newsletter" and are prompted to Enter their email address.
+      There is a "Join !" button just underneath of the input field which is located close to the field and can easily be distinguished.
 
 ## Deployment:
 
