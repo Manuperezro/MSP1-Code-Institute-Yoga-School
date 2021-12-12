@@ -359,7 +359,7 @@ A huge thankyou to my mentor who has been incredibly helpful and approachable th
 
 Likewise, to the tutors for helping through to completion on this.
 
-And for the main teacher at the City of Bristol College.
+And to the main teacher at the City of Bristol College.
 
 Big Thanks.
 
