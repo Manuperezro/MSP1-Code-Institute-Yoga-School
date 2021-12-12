@@ -214,22 +214,29 @@ Workshop.html :
 
   ######  As a First Time Visitor, I want to easily se hat the studio offers, find when the classes take place (timetable) also the prices and offers:
      
-     - Upon entering the site, users will see the first a hero image so the users can get an idea on how the studio looks like.
+     - Upon entering the site, users will see the first a hero image
+     so the users can get an idea on how the studio looks like.
 
-     - Just ath the botton it is a call to action offer showing the new members offer. and a button wich open a modal to Sign Up, 
-     so users can easyly click and sign to the offer.( with futures features they will be able to made payments)
+     - Just ath the botton it is a call to action offer showing the new members offer. 
+     and a button wich open a modal to Sign Up, 
+     so users can easyly click and sign to the offer.
+     (with futures features they will be able to made payments)
 
-     - After this the Users can find 2 bigs pisctures with links, that ghuide then to the sction of classes and prices, and workshops, 
+     - After this the Users can find 2 bigs pisctures with links, 
+     that ghuide then to the sction of classes and prices, and workshops, 
      so they can find what the studio offer as a daily basics.
 
-     - Follwing the links there is an introduction of the teachers that works in the studio, so users know what to expect in the classes before the procced to booking.
+     - Follwing the links there is an introduction of the teachers that works in the studio, 
+     so users know what to expect in the classes before the procced to booking.
 
   #####  As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content:
 
-    - At the top of each page the is a header with the logo and the navigation menu, wich mades easy to navigates throw the four pages of the site. 
+    - At the top of each page the is a header with the logo and the navigation menu, 
+    wich mades easy to navigates throw the four pages of the site. 
 
     - At the botton of the header in the Index page, there is a call to action for first time visitors( new members offer ) 
-    and at the botton of this 2  call to action redirections links, so the users always now where to go and they don't feel trapped as they reach the botton of the page.
+    and at the botton of this 2  call to action redirections links,
+     so the users always now where to go and they don't feel trapped as they reach the botton of the page.
 
     - At the bottom of the footer in all pages there is a link to bring the ser to tye top of the page, 
     to the nav menu, so is easy to the user to move to what is looking for.
@@ -238,7 +245,8 @@ Workshop.html :
 
     - After the teaching section the users can read some reviews from others visitors.
 
-    - at the botton of the Visit us here the user can find links to social media, link to the studio gmail and the iframe google map location at the right side. 
+    - at the botton of the Visit us here the user can find links to social media, 
+    link to the studio gmail and the iframe google map location at the right side. 
     
  #### Returning Visitor Goals: 
 
@@ -262,18 +270,19 @@ Workshop.html :
 
  #### Frequent Users Goals:
 
- ##### As a Frequent User, I want to be able to book a class easyly:
+##### As a Frequent User, I want to be able to book a class easyly:
 
     - The user would already be comfortable with the website layout and can easily click the classes link to book in the timetable with a few clicks.
 
- ##### As a Frequent User, I want to check to see if there are any new workshops.
+##### As a Frequent User, I want to check to see if there are any new workshops.
 
     - The user would already be comfortable with the website layout and can easily click the workshop page.
 
 #####  As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the class timetablewebsite workshops or events.
 
     - At the bottom of every page their is a footer which content is consistent throughout all pages.
-      in the center of the footer there is a form where the user can "Subscribe to our Newsletter" and are prompted to Enter their email address.
+      in the center of the footer there is a form where the user can "Subscribe to our Newsletter" 
+      and are prompted to Enter their email address.
       There is a "Join !" button just underneath of the input field which is located close to the field and can easily be distinguished.
 
 ## Deployment:
