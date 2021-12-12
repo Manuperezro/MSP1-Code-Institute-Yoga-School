@@ -81,7 +81,6 @@ White is bright and can create a sense of space or add highlights. Designers oft
 yoga can bring to the students using the color on the website, and the breathing space. 
 
 
-
 + Typography:
 
 - Ubuntu = H2 and H3 and H4
@@ -208,6 +207,28 @@ Ahimsa.html :
 Workshop.html : 
 
 ![lighthouse results](assets/images/readme.img/lighthouse.ahimsa.JPG "Ahimsa")
+
+### Testing User Stories from User Experience (UX) Section
+
+ - First Time Visitor Goals: 
+
+  1  As a First Time Visitor, I want to easily se hat the studio offers, find when the classes take place (timetable) also the prices and offers.
+     
+     + Upon entering the site, users will see the first a hero image so the users can get an idea on how the studio looks like.
+
+     + Just ath the botton it is a call to action offer showing the new members offer. and a button, so users can easyly click and register to the offer.( with futures features they will be able to make payments)
+
+     + After this the Users can find 2 bigs pisctures with links, that ghuide then to the sction of classes and prices, and workshops, so they can find what the studio offer as a daily basics.
+
+  2  As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+
+    + At the top of each page the is a header with the logo and the navigation menu, wich mades easy to navigates throw the four pages of the site. 
+
+    + At the botton of the header in the Index page, there is a call to action for first time visitors( new members offer ) and at the botton of this 2  call to action redirections links, so the users always now where to go and they don't feel trapped as they reach the botton of the page.
+
+    + 
+
+
 
 ## Deployment:
 
