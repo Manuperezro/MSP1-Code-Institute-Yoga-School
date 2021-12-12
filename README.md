@@ -259,18 +259,19 @@ Workshop.html :
     - The links for classes/ Prices and workshops are right on the middle in the home page.  
       This pages two will be the most visited pages for a returning visitor
 
-    - In the classes and workshops pages are buttons with open a modal to be able to register to a future app (mindbody-online-app), 
-    in wich the users will be able to made online bookings and payments.
+    - In the classes and workshops pages are buttons with open a modal to be able to register to a future app 
+    (mindbody-online-app), in wich the users will be able to made online bookings and payments.
 
   ##### As a returning Visitor, I want to fin any new updates in the timetable and workshops section:
 
-    - In the footer at every page the users can find a form to join and reveive direct email with every update.
+    - In the footer at every page the users can find a form to join and reveived emails with every update.
 
     - Also Updates in the timetale will be highlated in the timetable.
 
   ##### As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have:
 
-    - At the botton in index.html is section with "find Us": and "Contac us:" where users can find the contact information.
+    - At the botton in index.html is section with "find Us": and "Contac us:" where users can find 
+    the contact information.
 
     - In the same section users can find social media links.
 
@@ -278,7 +279,8 @@ Workshop.html :
 
 ##### As a Frequent User, I want to be able to book a class easyly:
 
-    - The user would already be comfortable with the website layout and can easily click the classes link to book in the timetable with a few clicks.
+    - The user would already be comfortable with the website layout and can easily click 
+    the classes link to book in the timetable with a few clicks.
 
 ##### As a Frequent User, I want to check to see if there are any new workshops.
 
@@ -289,7 +291,8 @@ Workshop.html :
     - At the bottom of every page their is a footer which content is consistent throughout all pages.
       in the center of the footer there is a form where the user can "Subscribe to our Newsletter" 
       and are prompted to Enter their email address.
-      There is a "Join !" button just underneath of the input field which is located close to the field and can easily be distinguished.
+      There is a "Join !" button just underneath of the input field which is located close to the field 
+      and can easily be distinguished.
 
 ## Deployment:
 
