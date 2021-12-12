@@ -49,8 +49,8 @@ User will acces to contact information and they will be able to see the location
 
 ## Design:
 
-The Desing of the web is made to ivite visitors to come to get to know the studio, the studio yoga approach and yoga styles, and to book classes and offers.
-So I tried to do a simple web with lights colors, wich is easy to navigate through and pleasent at the same time, also Include some "motivatonal" pictures of students doing some fancy yoga poses to show what they will be capable to learm if the decide to learm and practice yoga in the studio.
+The Desing of the website is made to ivite visitors to come to get to know the studio, the studio yoga approach and yoga styles, and to book classes and offers.
+So I tried to do a simple web with lights colors, wich is easy to navigate through and pleasent at the same time, also Include some "motivational" pictures of practicioners doing some fancy yoga poses to show what they will be capable to learm if they decided to learm and practice yoga in the studio.
 
 ### Design Brief:
 
@@ -85,9 +85,11 @@ yoga can bring to the students using the color on the website, and the breathing
 
 + Images:
 
-- Background Image/ Hero Image/ home page: I used a yoga bright picture of yoga studion class with the teacher of some students practicing yoga and smailing to each other. to invite New      students to try the experience, and transit the space of peace that the studio can be.  
+- Background Image/ Hero Image/ home page: I used a yoga bright picture of yoga studion class with the teacher of some students practicing yoga and smailing to each other. to invite New      students to try the experience, and transmit the space of peace that the studio can be.  
 
-- Sections images: In the other sections I used images of yoga practicioners doing some fancy posses to try to create some motivation in  users, to invited them ti start or keep oracticing yoga.
+- Sections images: In the other sections I used images of yoga practicioners doing some fancy posses to try to create some motivation in  users, to invited them to start or keep oracticing yoga.
+
+- Ahimsa image: I choose a picture where a practicioner is in a meditation pose, to transmit the spiritual part of yoga.
 
 ## Wireframes:
 
@@ -118,7 +120,7 @@ Here some images of the procces( to see full wireframe click PDF) :
 
    #### (future features)
 
-    "buttons to link with and app to to do online payments and online booking"
+    "buttons to link with and app to to do online payments and online booking" (mindbody app)
 
 ## Technologies: 
 
@@ -225,17 +227,23 @@ Workshop.html :
      - Follwing the links there is an introduction of the teachers that works in the studio, 
      so users know what to expect in the classes before the procced to booking.
 
-  #####  As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content:
+  #####  As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content and find where the studio is located:
 
     - At the top of each page the is a header with the logo and the navigation menu, 
     wich mades easy to navigates throw the four pages of the site. 
 
-    - At the botton of the header in the Index page, there is a call to action for first time visitors( new members offer ) 
+    - At the botton of the header in the Index page, there is a call to action 
+    for first time visitors( new members offer ) 
     and at the botton of this 2  call to action redirections links,
-     so the users always now where to go and they don't feel trapped as they reach the botton of the page.
+     so the users always now where to go and they don't feel trapped 
+     as they reach the botton of the page.
 
-    - At the bottom of the footer in all pages there is a link to bring the ser to tye top of the page, 
-    to the nav menu, so is easy to the user to move to what is looking for.
+    - At the bottom of the footer in all pages there is a link to bring back 
+    the users to the top of the page, to the nav menu, 
+    so is easy to the user to move to what is looking for.
+
+    -In the Home page the users can fin a call of action link wich get to the iframe map location
+     at the botton of the page and also to the contact us information.
 
   ##### As a first time visitor I want to see some stories and reviews from other ussers to get to know the studio. I also Want to find the links to the social media to find more information about the studion and ussers thoughts and reviews and be able to determine how trasted and known the studio is:
 
@@ -251,16 +259,18 @@ Workshop.html :
     - The links for classes/ Prices and workshops are right on the middle in the home page.  
       This pages two will be the most visited pages for a returning visitor
 
-    - In the classes and workshops pages are buttons with open a modal to be able to register to a future app (mindbodyonline), 
+    - In the classes and workshops pages are buttons with open a modal to be able to register to a future app (mindbody-online-app), 
     in wich the users will be able to made online bookings and payments.
 
   ##### As a returning Visitor, I want to fin any new updates in the timetable and workshops section:
 
     - In the footer at every page the users can find a form to join and reveive direct email with every update.
 
+    - Also Updates in the timetale will be highlated in the timetable.
+
   ##### As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have:
 
-    - At the boton in index.html is section with find Us and Contac us where users can find the contact information.
+    - At the botton in index.html is section with "find Us": and "Contac us:" where users can find the contact information.
 
     - In the same section users can find social media links.
 
