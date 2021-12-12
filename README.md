@@ -10,14 +10,8 @@
 
 [View Repository in GitHub Pages] (https://github.com/Manuperezro/MSP1-Code-Institute-Yoga-School)
 
-## Webside Showcase
 
-"Mockup"
-
-## Contents
-
-to do (Link all the content of the Readme ( The why .. etc)
-
+[view Website Link ] (https://manuperezro.github.io/MSP1-Code-Institute-Yoga-School/)
 ## The Why
 
 Made the studio more accesible to students giving them the possibility to see the live classes timetable, and get to know what the studio offers.
