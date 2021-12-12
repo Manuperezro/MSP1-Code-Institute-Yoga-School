@@ -220,15 +220,30 @@ Workshop.html :
 
      + After this the Users can find 2 bigs pisctures with links, that ghuide then to the sction of classes and prices, and workshops, so they can find what the studio offer as a daily basics.
 
+     + Follwing the links there is an introduction of the teachers that works in the studio, so users know what to expect in the classes before the procced to booking.
+
   2  As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
     + At the top of each page the is a header with the logo and the navigation menu, wich mades easy to navigates throw the four pages of the site. 
 
     + At the botton of the header in the Index page, there is a call to action for first time visitors( new members offer ) and at the botton of this 2  call to action redirections links, so the users always now where to go and they don't feel trapped as they reach the botton of the page.
 
-    + 
+    + At the bottom of the footer in all pages there is a link to bring the ser to tye top of the page, to the nav menu, so is easy to the user to move to what is looking for.
+
+  3 As a first time visitor I want to see some stories and reviews from other ussers to get to know the studio. I also Want to find the links to the social media to find more information about the studion and ussers thoughts and reviews and be able to determine how trasted and known the studio is.
+
+    + After the teaching section the users can read some reviews from others visitors.
+
+    + at the botton of the Visit us here the user can find links to social media, link to the studio gmail and the iframe google map location at the right side. 
+    
+ - Returning Visitor Goals: 
+
+  1 As a returning Visitor, I want to book easyly classes and workshops.
+   
+    + The links for classes and workshops are right on the middle in the home page. as this two will be the most usefull links for a returning visitor
 
 
+    + In the footer at every page the users can fin a form to join and reveive direct email with every update.
 
 ## Deployment:
 

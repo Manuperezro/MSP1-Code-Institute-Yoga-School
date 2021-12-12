@@ -386,7 +386,7 @@ header {
 
 .visit-us h2 {
 
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
@@ -395,6 +395,14 @@ header {
     margin-top: 30px;
     margin-bottom: 20px;
 }
+
+.visit-us h4 {
+    
+    margin-top: 20px;    
+
+}
+
+
 .visit-us { 
 
     font-family: 'Lato', sans-serif;
