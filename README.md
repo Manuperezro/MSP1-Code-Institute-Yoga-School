@@ -75,6 +75,8 @@ White is bright and can create a sense of space or add highlights. Designers oft
 yoga can bring to the students using the color on the website, and the breathing space. 
 
 
+- Links : The color of the Links to navigate in the ahimsa.html are blue with the porupose to made easy to users to identify that they are external links.
+
 + Typography:
 
 - Ubuntu = H2 and H3 and H4
