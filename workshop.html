@@ -48,7 +48,38 @@
              <p>Run by   Alicia Moreno <br>         
                Cost £25<br>
                25-July-2022</p>
-             <button type="button" class="btn btn-secondary btn-sm button">Book</button>
+               <button type="button" class="btn btn-secondary btn-sm button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button>
+               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body">
+                       <form>
+                         <div class="mb-3">
+                           <label for="name" class="form-label">User Name</label>
+                           <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                           <div id="nameHelp"></div>
+                         </div>
+                         <div class="mb-3">
+                           <label for="password" class="form-label">Password</label>
+                           <input type="password" class="form-control" id="password" aria-describedby="password">
+                         </div>
+                         <div class="mb-3">
+                           <label for="password" class="form-label">Repeat Password</label>
+                           <input type="password" class="form-control" id="passwordrepeat" aria-describedby="passwordrepeat">
+                         </div>
+                       </form>
+                     </div>
+                     <div class="modal-footer">
+                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                       <button type="button" class="btn btn-warning">Register</button>
+                     </div>
+                   </div>
+                 </div>
+               </div>
              <hr>
              <h3>Pranajama</h3>
              <p>2 hours workshop: learm the benefits of respiration techniques,<br>
@@ -56,28 +87,28 @@
              <p>Run by: Manuel Perez<br>
                 Cost £25<br>
                 21-July-2022</p>
-             <button type="button" class="btn btn-secondary btn-sm button">Book</button>
+             <button type="button" class="btn btn-secondary btn-sm button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button>
              <hr>
              <h3>Behind the poses</h3>
              <p>2 hours workshop to understand the techniques behind hand-stands
              <p> by   Alicia Moreno  <br>              
               Cost £25<br>
               11-September-2022</p>
-              <button type="button" class="btn btn-secondary btn-sm button">Book</button>
+              <button type="button" class="btn btn-secondary btn-sm button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button>
               <hr>
               <h3>Philosophy : Vedas and Upanishads</h3>
               <p>2 hours workshop we will go trhough the ancients texts 
               Run by   Alicia Moreno<br>               
               Cost £25<br>  
               9-October-2022</p>
-             <button type="button" class="btn btn-secondary btn-sm button">Book</button>
+             <button type="button" class="btn btn-secondary btn-sm button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button>
              <hr> 
              <h3>Lower back strengh</h3>
              <p>2 hours workshop to understand our complex column and how to avoid pain and strengh the muscles 
              Run by   Manuel Perez<br>  
              Cost £25<br>  
              15-November-2022</p>
-             <button type="button" class="btn btn-secondary btn-sm button">Book</button>
+             <button type="button" class="btn btn-secondary btn-sm button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button>
            </div>
         </div>
           <div class="col-lg-6">
@@ -134,7 +165,5 @@
     </div>
  </section>
 </footer>
-
-
 </body>
 </html>

@@ -71,7 +71,7 @@
                 Sunday 6.00pm / style: Yin (With Bea)
                 <hr>
             </div>
-            <button type="button" class="btn btn-secondary btn-sm button">Book a Class</button>
+            <button type="button" class="btn btn-secondary btn-sm button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book a Class</button>
           </div>
         </div>
         <div class="col-lg-6">
@@ -94,7 +94,38 @@
               <hr>
               <p><b>INTRO OFFER £30 x 1 month Unlimited !</b></p>
               <hr>
-              <button type="button" class="btn btn-secondary btn-sm button">Try Now !</button>
+              <button type="button" class="btn btn-secondary btn-sm button" data-bs-toggle="modal" data-bs-target="#exampleModal">Try Now !</button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="name" class="form-label">User Name</label>
+                          <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                          <div id="nameHelp"></div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="password" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="password" aria-describedby="password">
+                        </div>
+                        <div class="mb-3">
+                          <label for="password" class="form-label">Repeat Password</label>
+                          <input type="password" class="form-control" id="passwordrepeat" aria-describedby="passwordrepeat">
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-warning">Register</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
        </div>
        <div class="col-lg-6">
