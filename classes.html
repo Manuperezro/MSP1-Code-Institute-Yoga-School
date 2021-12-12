@@ -117,19 +117,41 @@
         <form>
           <div class="mb-3">
             <label for="name1" class="form-label">Your Name</label>
-            <input type="namel" class="form-control" id="name1" aria-describedby="nameHelp">
-            <div id="nameHelp"></div>
+            <input type="text" class="form-control" id="name1" aria-describedby="nameHelp">
+            <div id="name1help"></div>
           </div>
           <div class="mb-3">
             <label for="email1" class="form-label">Your Email</label>
-            <input type="email" class="form-control" id="email1" aria-describedby="emailHelp">
+            <input type="email" class="form-control" id="email1" aria-describedby="email1">
           </div>
-          <button type="button" class="btn btn-secondary button">Join !</button>
+          <div class="offer-button">
+            <button type="button" class="btn btn-secondary button" data-bs-toggle="modal" data-bs-target="#joinmodal">Join !</button>
+          </div>
         </form>
+      </div>
+  
+      <!-- Modals based on Bootstrap documentatio model-->
+  
+      <div class="modal fade" id="joinmodal" tabindex="-1" aria-labelledby="joinmodal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="joinmodalLabel">Congratulations !</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               You have succesfully register as a Member ! 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-   </div>
  </section>
 </footer>
+
 
 </body>
 </html>
