@@ -132,7 +132,11 @@ Here some images of the procces( to see full wireframe click PDF) :
 
 ### Also I used: 
 
-- [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
+- [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)
+
+  From Bootrap I used: grid system, the nav, the buttoms, modals and part of the forms layout. 
+  Everithing has been modify to the project requirements and styled with css.
+  
 
 - [Google Fonts](https://en.wikipedia.org/wiki/Google_Fonts)
 
@@ -210,7 +214,7 @@ Workshop.html :
 
  #### First Time Visitor Goals: 
 
-  ######  As a First Time Visitor, I want to easily se hat the studio offers, find when the classes take place (timetable) also the prices and offers:
+  ######  As a First Time Visitor, I want to easily see the studio offers, find when the classes take place (timetable) also the prices and offers:
      
      - Upon entering the site, users will see the first a hero image
      so the users can get an idea on how the studio looks like.
