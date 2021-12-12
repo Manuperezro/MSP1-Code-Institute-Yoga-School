@@ -58,7 +58,7 @@ User will acces to contact information and they will be able to see the location
 The Desing of the web is made to ivite visitors to come to get to know the studio, the studio yoga approach and yoga styles, and to book classes and offers.
 So I tried to do a simple web with lights colors, wich is easy to navigate through and pleasent at the same time, also Include some "motivatonal" pictures of students doing some fancy yoga poses to show what they will be capable to learm if the decide to learm and practice yoga in the studio.
 
-### Design Brief: (Maybe ?)
+### Design Brief:
 
 + Color:
 
@@ -210,40 +210,56 @@ Workshop.html :
 
 ### Testing User Stories from User Experience (UX) Section
 
- - First Time Visitor Goals: 
+ ## First Time Visitor Goals: 
 
-  1  As a First Time Visitor, I want to easily se hat the studio offers, find when the classes take place (timetable) also the prices and offers.
+  #  As a First Time Visitor, I want to easily se hat the studio offers, find when the classes take place (timetable) also the prices and offers:
      
-     + Upon entering the site, users will see the first a hero image so the users can get an idea on how the studio looks like.
+     - Upon entering the site, users will see the first a hero image so the users can get an idea on how the studio looks like.
 
-     + Just ath the botton it is a call to action offer showing the new members offer. and a button, so users can easyly click and register to the offer.( with futures features they will be able to make payments)
+     - Just ath the botton it is a call to action offer showing the new members offer. and a button wich open a modal to Sign Up, 
+     so users can easyly click and sign to the offer.( with futures features they will be able to made payments)
 
-     + After this the Users can find 2 bigs pisctures with links, that ghuide then to the sction of classes and prices, and workshops, so they can find what the studio offer as a daily basics.
+     - After this the Users can find 2 bigs pisctures with links, that ghuide then to the sction of classes and prices, and workshops, 
+     so they can find what the studio offer as a daily basics.
 
-     + Follwing the links there is an introduction of the teachers that works in the studio, so users know what to expect in the classes before the procced to booking.
+     - Follwing the links there is an introduction of the teachers that works in the studio, so users know what to expect in the classes before the procced to booking.
 
-  2  As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+  #  As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content:
 
-    + At the top of each page the is a header with the logo and the navigation menu, wich mades easy to navigates throw the four pages of the site. 
+    - At the top of each page the is a header with the logo and the navigation menu, wich mades easy to navigates throw the four pages of the site. 
 
-    + At the botton of the header in the Index page, there is a call to action for first time visitors( new members offer ) and at the botton of this 2  call to action redirections links, so the users always now where to go and they don't feel trapped as they reach the botton of the page.
+    - At the botton of the header in the Index page, there is a call to action for first time visitors( new members offer ) 
+    and at the botton of this 2  call to action redirections links, so the users always now where to go and they don't feel trapped as they reach the botton of the page.
 
-    + At the bottom of the footer in all pages there is a link to bring the ser to tye top of the page, to the nav menu, so is easy to the user to move to what is looking for.
+    - At the bottom of the footer in all pages there is a link to bring the ser to tye top of the page, 
+    to the nav menu, so is easy to the user to move to what is looking for.
 
-  3 As a first time visitor I want to see some stories and reviews from other ussers to get to know the studio. I also Want to find the links to the social media to find more information about the studion and ussers thoughts and reviews and be able to determine how trasted and known the studio is.
+  # As a first time visitor I want to see some stories and reviews from other ussers to get to know the studio. I also Want to find the links to the social media to find more information about the studion and ussers thoughts and reviews and be able to determine how trasted and known the studio is:
 
-    + After the teaching section the users can read some reviews from others visitors.
+    - After the teaching section the users can read some reviews from others visitors.
 
-    + at the botton of the Visit us here the user can find links to social media, link to the studio gmail and the iframe google map location at the right side. 
+    - at the botton of the Visit us here the user can find links to social media, link to the studio gmail and the iframe google map location at the right side. 
     
- - Returning Visitor Goals: 
+ ## Returning Visitor Goals: 
 
-  1 As a returning Visitor, I want to book easyly classes and workshops.
+  # As a returning Visitor, I want to book easyly classes and workshops:
    
-    + The links for classes and workshops are right on the middle in the home page. as this two will be the most usefull links for a returning visitor
+    - The links for classes/ Prices and workshops are right on the middle in the home page.  
+      This pages two will be the most visited pages for a returning visitor
 
+    - In the classes and workshops pages are buttons with open a modal to be able to register to a future app (mindbodyonline), 
+    in wich the users will be able to made online bookings and payments.
 
-    + In the footer at every page the users can fin a form to join and reveive direct email with every update.
+  # As a returning Visitor, I want to fin any new updates in the timetable and workshops section:
+
+    - In the footer at every page the users can find a form to join and reveive direct email with every update.
+
+  # As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have:
+
+    - At the boton in index.html is section with find Us and Contac us where users can find the contact information.
+
+    - In the same section users can find social media links.
+
 
 ## Deployment:
 
