@@ -69,20 +69,36 @@
           <button type="button" class="btn btn-secondary button" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Join Now! </button>
     </div>
-    
+
+    <!-- Modals based on Bootstrap documentatio model-->
+
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">User Name</label>
+            <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+            <div id="nameHelp"></div>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" aria-describedby="password">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Repeat Password</label>
+            <input type="password" class="form-control" id="passwordrepeat" aria-describedby="passwordrepeat">
+          </div>
+        </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-warning">Register</button>
       </div>
     </div>
   </div>
@@ -130,9 +146,9 @@
        <div class="col-lg-4">
         <div class="p-3 border bg-light equal-column-content">              
           <h4>Manuel</h4>
-          <p>Manuel is an approved Ashtang and Vynasa yoga trainer, and is qualifed at Level 1, 2 and 3.</p>
+          <p>Manuel is an Ashtanga, Hatha and Vynasa yoga trainer.</p>
 
-            <p>He had been teaching yoga for over 5 years, and practicing for more than 8 years.</p>
+            <p>He had been teaching yoga for over 2 years, and practicing for more than 8 years.</p>
 
             <p>He is a Reiki master level 3, who loves to embodying the sacred through movement,
              and a meditation and yoga nidra practioner for meny years.</p>
@@ -143,7 +159,7 @@
        <div class="col-lg-4">
          <div class="p-3 border bg-light equal-column-content">
            <h4>Bea</h4>
-             <p>Bea is an approved Ashtang and Yin yoga trainer, and is qualifed at Level 1, 2 and 3.</p>
+             <p>Bea is an approved Ashtanga and Yin yoga trainer.</p>
 
                <p>She is a touring UK mantra recording artist and dancer, who loves to embodying the sacred through movement, melody and rhythm.</p>
 
@@ -156,7 +172,7 @@
             <p>Alicia’s classes are a moving mediation, enriched by her compassion,<br>
                kindness and wisdom.</p>
 
-               <p>She worked as an independent artist, writing, performing and painting,<br>
+               <p>She also is an skater who, dosen't feel fear jumping, around the city with her skater<br>
                <p>before discovering yoga in the late 1990s.</p>
 
                <p>Having explored many styles including Iyengar, Ashtanga and Kundalini.<br>
@@ -176,7 +192,7 @@
       <div class="col-lg-4">
        <div class="p-3 border bg-light equal-column-content">              
          <h4>Nelly</h4>
-         <p>I’ve been a fan for years. I come to workshops every so often to reconnect with fun, amazing and inspirational teachers.</p>
+         <p>I’ve been a fan for years. I come to workshops every so often to reconnect with fun, amazing teachers.</p>
           <p>On the practicalities side, excellent location, beautiful changing rooms and showers certainly enhance one’s experience.</p>
         </div>
       </div>
@@ -227,7 +243,7 @@
       </div>
      </section>
 
-     <!-- form and buttons based on Bootstrap documentatio nmodel-->
+     <!-- form and buttons based on Bootstrap documentatio model-->
 
      <footer>
       <section class= "form-section section-m">
@@ -239,17 +255,38 @@
             <form>
               <div class="mb-3">
                 <label for="name1" class="form-label">Your Name</label>
-                <input type="namel" class="form-control" id="name1" aria-describedby="nameHelp">
-                <div id="nameHelp"></div>
+                <input type="text" class="form-control" id="name1" aria-describedby="nameHelp">
+                <div id="name1help"></div>
               </div>
               <div class="mb-3">
                 <label for="email1" class="form-label">Your Email</label>
-                <input type="email" class="form-control" id="email1" aria-describedby="emailHelp">
+                <input type="email" class="form-control" id="email1" aria-describedby="email1">
               </div>
-              <button type="button" class="btn btn-secondary button" data-toggle="modal">Join !</button>
+              <div class="offer-button">
+                <button type="button" class="btn btn-secondary button" data-bs-toggle="modal" data-bs-target="#joinmodal">Join !</button>
+              </div>
             </form>
+          </div>
+      
+          <!-- Modals based on Bootstrap documentatio model-->
+      
+          <div class="modal fade" id="joinmodal" tabindex="-1" aria-labelledby="joinmodal" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="joinmodalLabel">Congratulations !</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   You have succesfully register as a Member ! 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-       </div>
      </section>
     </footer>
 
